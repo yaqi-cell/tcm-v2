@@ -1,0 +1,7 @@
+{
+  "name": "TCM Tongue Diagnosis AI",
+  "description": "Professional Traditional Chinese Medicine tongue analysis using Gemini 3 Pro. Upload a photo for instant constitution identification and health advice.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
