@@ -6,7 +6,7 @@ export const analyzeTongueImage = async (base64Image: string, mimeType: string):
   const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
   
   try {
-    const modelId = "gemini-3-pro-preview";
+    const modelId = "gemini-1.5-flash";
     
     const response = await ai.models.generateContent({
       model: modelId,
